@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>simplePages</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<link rel="stylesheet" href="styles/general.css" />
+		<link rel="stylesheet" href="styles/loading.css" />
+		
+		<script src="scripts/jquery-2.1.4.min.js"></script>
+		<script src="scripts/tools.js"></script>
+		<script src="scripts/general.js"></script>
+		<script src="scripts/tinymce/tinymce.min.js"></script>
+	</head>
+	<body>
+		<section id="menubar">
+			<ul>
+				<li>
+					<a class="menubutton" href="#menu"><img src="images/menu.png" /></a>
+				</li>
+				<li>
+					<a class="logout" href="login.php?action=logout">Logout</a>
+				</li>
+			</ul>
+		</section>
+		<header>
+			<h1>simplePages</h1>
+		</header>
+		<nav class="nav">
+			<ul>
+				<li>
+					<a href="#home" class="active">Kontrollzentrum</a>
+				</li>
+				<li>
+					<a href="#contents">Beitr&auml;ge</a>
+				</li>
+				<li>
+					<a href="#user">Benutzer</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="main">
+			<article>
+				<h2 id="heading"></h2>
+				
+				<ul class="loading" style="margin-bottom: 3em;">
+					<li> </li>
+					<li> </li>
+					<li> </li>
+					<li> </li>
+					<li> </li>
+				</ul>
+				
+				<div id="content"></div>
+			</article>
+			<aside>
+				<section>
+					<h2>Aktionen</h2>
+					
+					<ul class="loading">
+						<li> </li>
+						<li> </li>
+						<li> </li>
+						<li> </li>
+						<li> </li>
+					</ul>
+					
+					<ul id="actions">
+					</ul>
+				</section>
+				<section>
+					<h2>Informationen</h2>
+					<ul id="infos">
+						<li>Beitr&auml;ge: 50</li>
+						<li>Benutzer: 6</li>
+					</ul>
+				</section>
+			</aside>
+		</section>
+		<footer>
+			<ul>
+				<li>&copy; 2015 simplePages</li>
+				<li>Kontakt</li>
+				<li><a href="#licence">Lizenzen</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
